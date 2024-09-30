@@ -61,7 +61,7 @@ body{
 
     font-size: 18px;
     padding: 20px;
-    color: #ECF0F1;
+    color: #bddffc;
     display: block;
     font-weight: 600;
 }
@@ -131,14 +131,15 @@ img {
     padding: 70px 55px;
 }
 .general-4{
-    height: 300px;
-    padding: 70px 55px;
+    height: 100px;
+    padding: 30px 55px;
 }
 
 h2 {
     font-size: 70px;
     text-transform: uppercase;
     color: #ECF0F1;
+    text-align: left;
 }
 
 .txt h3 {
@@ -159,7 +160,7 @@ h2 {
 
 .info-content h2, span {
     color:#ECF0F1;
-    font-size: 40px;
+    font-size: 60px;
     text-align: left;
 }
 
@@ -267,7 +268,7 @@ h2 {
         top:100%;
         left: 0;
         right: 0;
-        background-color: #ECF0F1;
+        background-color: #1c2a35;
         display: none;
     }
     .menu .navbar ul li {
@@ -379,4 +380,8 @@ h2 {
 
 p {
     text-align: left;
+}
+a{
+    color: #e199d1;
+    font-size: 25px;
 }
