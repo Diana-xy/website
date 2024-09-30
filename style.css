@@ -10,11 +10,19 @@
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
+}
+
+head{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 15vh;
+    display: flex;
+    align-items: center;
 }
 
 .header {
-    background-color: #b1bbbe;
+    background-image: url("img/fondo_12.png");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
@@ -22,13 +30,13 @@
     align-items: center;
 }
 
+
 body{
-    background-color: #e5e8e9;
+    background-color: #141E26 ;
+    background-size: cover;
 }
 
-
 .menu {
-
     position: absolute;
     top: 0;
     left: 0;
@@ -39,14 +47,12 @@ body{
     z-index: 1000;
 }
 .Logo {
-
-    color: #3a415a;
+    color: #92daf9;
     font-size: 25px;
     font-weight: 800;
 }
 
 .menu .navbar ul li {
-
     position: relative;
     float: left;
 }
@@ -55,7 +61,7 @@ body{
 
     font-size: 18px;
     padding: 20px;
-    color: #3a415a;
+    color: #ECF0F1;
     display: block;
     font-weight: 600;
 }
@@ -68,42 +74,41 @@ body{
 }
 
 .menu label {
-
     cursor: pointer;
     display: none;
 }
+img {
+    width: 160px;
+    border-radius: 100%;
+    margin: auto;
+}
 
 .header-txt {
+    
     text-align: center;
+    width: 350px;
+    margin-top: 10px;
+    display: inline-block;
+    margin: 100px;
 }
 
 .header-txt h1 {
     font-size: 85 px;
-    color: #3a415a;
-    text-transform: uppercase;
+    color: #ECF0F1;
     margin-bottom: 20px;
 }
 
 .header-txt p {
-    color: #;
-    font-size: 16px;
-    padding: 0 250px;
+    font-size: 20px;
     margin-bottom: 45px;
-    
-}
-.btn-1 {
-    display: inline-block;
-    padding: 12px, 45px;
-    border: 1px solid #3a415a;
-    color: #3a415a;
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: 600;
+    color: #ECF0F1;
 }
 
-.btn-1:hover{
-    color:  #B17457;
-    background-color: #B17457;
+.header-txt m {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: #ECF0F1;
 }
 
 .general{
@@ -117,69 +122,34 @@ body{
     margin-top: 55px;
 }
 .general-1{
-    background-image: url(img/Eve_alb.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 500px;
+    padding: 70px 55px;
 }
-.general-2{
-    background-image: url(img/Eve_alb.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
+
 .general-3{
-    background-image: url(img/Eve_alb.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 500px;
+    padding: 70px 55px;
 }
 .general-4{
-    background-image: url(img/Fondo_01.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-.general-5{
-    background-image: url(img/Eve_alb.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
-}
-.general-6{
-    background-image: url(img/Fondo_01.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    padding: 170px 55px;
+    height: 300px;
+    padding: 70px 55px;
 }
 
 h2 {
     font-size: 70px;
     text-transform: uppercase;
-    color: #1B293A;
+    color: #ECF0F1;
 }
 
 .txt h3 {
     font-size: 18px;
-    color: #1B293A;
+    color: #e199d1;
     text-transform: uppercase;
     margin-bottom: 10px ;
 }
 .txt p {
-    color: #3889e5;
-    font-size: 16px;
+    color: #ECF0F1;
+    font-size: 20px;
 }
 
 
@@ -188,13 +158,9 @@ h2 {
 }
 
 .info-content h2, span {
-    color:#3a415a;
-}
-
-.info-cicle {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 55px;
+    color:#ECF0F1;
+    font-size: 40px;
+    text-align: left;
 }
 
 .cicle-txt {
@@ -205,27 +171,11 @@ h2 {
     text-align: center;
     margin: 0 10px;
 }
-.circle-1 {
-    height: 100px;
-    width: 100px;
-    border: 1px solid #FFFDFC;
-    border-radius: 50%;
-    padding-top: 40px;
-}
 
-.circle-1 h3 {
-    color: #EBEBEB;
-    font-size: 16px;
-}
 
-.cicle-txt p {
-    color: #FFFDFC;
-    margin-top: 25px;
-}
 
 .info-2 {
-    padding: 250px 0;
-    background-image: url(img/Muse_XX_print.png);
+    padding: 10px 0;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -259,11 +209,11 @@ h2 {
 
 .testi-txt h3 {
     font-size: 20px;
-    color: #FFFDFC;
+    color: #ECF0F1;
 }
 
 .testi-txt p {
-    color: #EBEBEB;
+    color: #ECF0F1;
     font-size: 16px;
 }
 
@@ -279,29 +229,29 @@ h2 {
 .campo {
     margin-right: 10px;
     padding: 17 px 35px;
-    border: 2px solid #B4B4B4;
+    border: 2px solid #ECF0F1;
     outline: none;
-    color: #1B293A;
+    color: #ECF0F1;
 }
 .campo::placeholder {
-    color: #B4B4B4;
+    color: #ECF0F1;
 }
 
 .btn-2 {
     padding: 17px 35px;
-    border: 1px solid #1B293A;
-    background-color: #1B293A;
-    color: #FFFDFC;
+    border: 1px solid #ECF0F1;
+    background-color: #ECF0F1;
+    color: #ECF0F1;
 }
 
 .footer-txt {
     margin-top: 100px;
-    margin-top: 1px solid #B4B47E;
+    margin-top: 1px solid #ECF0F1;
     padding: 20px 0;
 }
 
 .footer.txt p {
-    color: #1B293A;
+    color: #ECF0F1;
     font-size: 16px;
 }
 
@@ -317,7 +267,7 @@ h2 {
         top:100%;
         left: 0;
         right: 0;
-        background-color: #4A4947;
+        background-color: #ECF0F1;
         display: none;
     }
     .menu .navbar ul li {
@@ -330,6 +280,7 @@ h2 {
         min-height: 0vh;
     }
     .header-content {
+
         padding: 100px 30px;
     }
     .header-txt h1{
@@ -348,17 +299,13 @@ h2 {
     }
     .general-1,
     .general-2,
-    .general-3,
-    .general-4,
-    .general-5,
-    .general-6{
-        height: 350px;
+    .general-4{
+        height: 450px;
         padding: 100px 40px;
         margin-bottom: 10px;
     }
     
     .info-1 {
-    background-size: 100% 100%;
         padding: 50px 50px;
         background-size: cover;
         margin-top: 70px;
@@ -378,7 +325,7 @@ h2 {
     }
 
     .info-2 {
-        padding: 128px 30px;
+        padding: 150px 30px;
         background-size: cover;
         margin-top: -180px;
     }
@@ -399,6 +346,7 @@ h2 {
     
     h2 {
         font-size: 40px;
+        padding: auto;
     }
 
     .footer {
@@ -415,4 +363,20 @@ h2 {
         margin-top: 30px;
     }
 }
+.btn-1 {
+    display: inline-block;
+    padding: 12px, 45px;
+    color: #a2d2fd;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.btn-1:hover{
+    color:  #ECF0F1;
+    background-color: #ECF0F1;
+    align-items: center center;
+}
 
+p {
+    text-align: left;
+}
