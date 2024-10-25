@@ -9,7 +9,7 @@
 }
 
 .container {
-    max-width:1200px;
+    max-width:100%;
     margin: 0 auto;
 }
 
@@ -26,6 +26,7 @@ head{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 70vh;
+
     display: flex;
     align-items: center;
 }
@@ -37,15 +38,19 @@ body{
 }
 
 .menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
+    background-color: #141E26; /* Añadido para que el fondo sea visible */
+   
 }
+
 .Logo {
     color: #92daf9;
     font-size: 25px;
@@ -70,7 +75,7 @@ body{
 }
 
 .menu-icono {
-    width: 30px;
+    margin: 10px;
 }
 
 .menu label {
@@ -105,7 +110,7 @@ img {
 }
 
 .header-txt m {
-    font-size: 25px;
+    font-size: 100%;
     margin-top: 10px;
     margin-bottom: 15px;
     color: #ECF0F1;
@@ -119,7 +124,7 @@ img {
 .general-content {
     display:flex;
     justify-content: space-between;
-    margin-top: 55px;
+    margin-top: 5%;
 }
 .general-1{
     height: 500px;
@@ -299,11 +304,15 @@ h2 {
         align-items: center;
         margin-top: 20px;
     }
-    .general-1,
+    .general-1{
+        height: 100px;
+        padding: 10px 20px;
+        margin-bottom: 400px;
+    }
     .general-3{
-        height: 450px;
-        padding: 100px 20px;
-        margin-bottom: 100px;
+        height: 100px;
+        padding: 10px 20px;
+        margin-bottom: 200px;
     }
     .general-4{
         height:30px;
@@ -336,9 +345,6 @@ h2 {
         margin-top: -180px;
     }
     
-    .testi {
-        flex-direction: column;
-    }
 
     .testi-left {
         width: 100%;
