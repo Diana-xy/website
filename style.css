@@ -3,14 +3,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     text-decoration: none;
     list-style: none;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0px auto;
+    max-width:1200px;
+    margin: 0 auto;
 }
 
 head{
@@ -86,7 +86,7 @@ img {
 .header-txt {
     
     text-align: center;
-    width: 350px;
+    
     margin-top: 10px;
     display: inline-block;
     margin: 100px;
@@ -137,6 +137,7 @@ img {
 
 h2 {
     font-size: 70px;
+    margin-top:60px;
     text-transform: uppercase;
     color: #ECF0F1;
     text-align: left;
@@ -150,7 +151,7 @@ h2 {
 }
 .txt p {
     color: #ECF0F1;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
@@ -160,7 +161,7 @@ h2 {
 
 .info-content h2, span {
     color:#ECF0F1;
-    font-size: 60px;
+    font-size: 40px;  
     text-align: left;
 }
 
@@ -282,7 +283,7 @@ h2 {
     }
     .header-content {
 
-        padding: 100px 30px;
+        padding: 10px 0;
     }
     .header-txt h1{
         font-size: 50px;
@@ -299,11 +300,15 @@ h2 {
         margin-top: 20px;
     }
     .general-1,
-    .general-2,
-    .general-4{
+    .general-3{
         height: 450px;
-        padding: 100px 40px;
-        margin-bottom: 10px;
+        padding: 100px 20px;
+        margin-bottom: 100px;
+    }
+    .general-4{
+        height:30px;
+        padding: 20px 20px;
+        margin-bottom: 100px;
     }
     
     .info-1 {
@@ -380,8 +385,11 @@ h2 {
 
 p {
     text-align: left;
+    font-size: 2vw;
 }
 a{
     color: #e199d1;
     font-size: 25px;
+    padding: 40px;
+    x;
 }
