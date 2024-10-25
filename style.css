@@ -127,13 +127,13 @@ img {
     margin-top: 5%;
 }
 .general-1{
-    height: 500px;
-    padding: 70px 55px;
+    height: 200px;
+    padding: 50px 55px;
 }
 
 .general-3{
-    height: 500px;
-    padding: 70px 55px;
+    height: 300px;
+    padding: 50px 55px;
 }
 .general-4{
     height: 50px;
@@ -302,12 +302,12 @@ h2 {
         margin-top: 20px;
     }
     .general-1{
-        height: 100px;
+        height: 900;
         padding: 10px 20px;
         margin-bottom: 500px;
     }
     .general-3{
-        height: 100px;
+        height: 900;
         padding: 10px 20px;
         margin-bottom: 300px;
     }
