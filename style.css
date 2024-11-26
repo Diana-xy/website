@@ -31,6 +31,12 @@ head{
     align-items: center;
 }
 
+.header-content {
+    background-color: rgba(50, 39, 32, 0.591);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
 
 body{
     background-color: #141E26 ;
@@ -47,7 +53,7 @@ body{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    background-color: rgba(36, 57, 68, 0.612);
+    background-color: rgba(17, 20, 22, 0.473);
     height: 90px;
 }
 
@@ -86,7 +92,6 @@ body{
 }
 img {
     width: 20%;
-    border-radius: 100%;
     margin: auto;
 }
 .header-txt {
@@ -98,20 +103,23 @@ img {
 }
 
 .header-txt h1 {
-    font-size: 85 px;
+    font-size: 50px;
     color: #ECF0F1;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
     margin-bottom: 20px;
+    padding-left: 100px;
 }
 
 .header-txt p {
-    font-size: 20px;
+    font-size: 25px;
+    padding-left: 90px;
     margin-bottom: 45px;
     text-align: center;
     color: #ECF0F1;
 }
 
 .header-txt m {
-    font-size: 100%;
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 15px;
     color: #ECF0F1;
@@ -147,6 +155,10 @@ h2 {
     text-transform: uppercase;
     color: #ECF0F1;
     text-align: left;
+}
+
+.header-txt m {
+    font-size: 50px;
 }
 
 .txt h3 {
@@ -223,8 +235,18 @@ h2 {
 }
 
 .footer {
-    padding: 100px 0 0 0;
-    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    font-size: 40px;
+    color: #565757;
+    padding-left: 60px;
+    height: 180px;
+    padding-right: 80px;
+}
+
+.footer.footer.container{
+    background-color:#080c10;
+    
 }
 
 .form {
@@ -250,7 +272,7 @@ h2 {
 }
 
 .footer-txt {
-    margin-top: 100px;
+    margin-top: 20px;
     margin-top: 1px solid #ECF0F1;
     padding: 20px 0;
 }
@@ -259,6 +281,7 @@ h2 {
     color: #ECF0F1;
     font-size: 16px;
 }
+
 
 @media(max-width:991px){
     .menu{
@@ -286,7 +309,6 @@ h2 {
         min-height: 0vh;
     }
     .header-content {
-
         padding: 10px 0;
     }
     .header-txt h1{
@@ -303,13 +325,17 @@ h2 {
         align-items: center;
         margin-top: 20px;
     }
+    .general-conteiner{
+        height: 1000px;
+    }
+
     .general-1{
-        height: 900;
+        height: 960;
         padding: 10px 20px;
         margin-bottom: 500px;
     }
     .general-3{
-        height: 900;
+        height: 960;
         padding: 10px 20px;
         margin-bottom: 300px;
     }
@@ -361,7 +387,9 @@ h2 {
 
     .footer {
         padding: 10;
-        margin-top: -140px;
+        margin-top: 40px;
+        color: #565757;
+        padding-left: 60px;
     }
 
 
@@ -370,7 +398,10 @@ h2 {
     }
 
     .footer-txt {
-        margin-top: 30px;
+        margin-top: 20px;
+    }
+    .footer.footer.container{
+        background-color:#080c10;
     }
 }
 .btn-1 {
