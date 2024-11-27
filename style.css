@@ -95,7 +95,6 @@ img {
     margin: auto;
 }
 .header-txt {
-    
     text-align: center;
     margin-top: 10px;
     display: inline-block;
@@ -103,7 +102,7 @@ img {
 }
 
 .header-txt h1 {
-    font-size: 50px;
+    font-size: 60px;
     color: #ECF0F1;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
     margin-bottom: 20px;
@@ -119,7 +118,7 @@ img {
 }
 
 .header-txt m {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 10px;
     margin-bottom: 15px;
     color: #ECF0F1;
@@ -150,15 +149,11 @@ img {
 }
 
 h2 {
-    font-size: 70px;
+    font-size: 65px;
     margin-left: 5%;
     text-transform: uppercase;
     color: #ECF0F1;
     text-align: left;
-}
-
-.header-txt m {
-    font-size: 50px;
 }
 
 .txt h3 {
@@ -237,7 +232,7 @@ h2 {
 .footer {
     padding: 10px 10px 10px 10px;
     text-align: left;
-    font-size: 40px;
+    font-size: 30px;
     color: #565757;
     padding-left: 60px;
     height: 180px;
@@ -317,6 +312,15 @@ h2 {
     .header-txt p {
         padding: 0;
     }
+
+    .header-txt m {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: #ECF0F1;
+    }
+    
+
     .general {
         padding: 30px 30px 0 30px;
     }
@@ -386,6 +390,7 @@ h2 {
     }
 
     .footer {
+        font-size: 30px;
         padding: 10;
         margin-top: 40px;
         color: #565757;
